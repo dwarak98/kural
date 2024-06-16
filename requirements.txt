@@ -1,0 +1,4 @@
+sounddevice==0.4.7
+numpy==1.26.4
+pycaw==20240210
+soundfile==0.12.1
