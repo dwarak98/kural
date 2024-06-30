@@ -24,7 +24,7 @@ def audio_to_text():
 
     pipeline = Pipeline.from_pretrained(
         "pyannote/speaker-diarization-3.1",
-        use_auth_token="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")
+        use_auth_token="")
 
     # send pipeline to GPU (when available)
     import torch
